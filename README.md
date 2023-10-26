@@ -13,7 +13,7 @@ Follow these steps to clone the repository, set up a virtual environment, run th
 1. **Clone the Repository:**
 
     ```bash
-    git clone <repo_url>
+    git clone https://github.com/OkayJosh/catapillar.git
     ```
 
 2. **Create a Virtual Environment:**
