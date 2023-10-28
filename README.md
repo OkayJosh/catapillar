@@ -19,6 +19,7 @@ Follow these steps to clone the repository, set up a virtual environment, run th
 2. **Create a Virtual Environment:**
 
     It's recommended to create a virtual environment to manage project dependencies. You can use Python's built-in `venv` module to create one. Navigate to the project directory and run:
+    please note: the python version that this program was tested in can be found at [runtime](runtime.txt)
 
     ```bash
     python -m venv venv
@@ -46,11 +47,11 @@ Follow these steps to clone the repository, set up a virtual environment, run th
     python -m unittest tests.TestData2botSchemaGenerator
     ```
 
-    This will ensure that the JSON Schema Generator works as expected.
+    This will ensure that the Data2botSchemaGenerator works as expected.
 
 4. **Run the Application:**
 
-    To use the JSON Schema Generator, you can create an instance of the `Data2botSchemaGenerator` class and use its methods in your application. Here's an example:
+    To use the Data2botSchemaGenerator, you can create an instance of the `Data2botSchemaGenerator` class and use its methods in your application. Here's an example:
 
     ```python
     from generator import Data2botSchemaGenerator
@@ -63,6 +64,11 @@ Follow these steps to clone the repository, set up a virtual environment, run th
     ```
 
     Replace `input.json` with your input JSON file, and `output_schema.json` with your desired output schema file. This code will generate the JSON schema and save it to the specified output file.
+
+
+5. use the main as an entry point to run the program:
+   `python main.py`
+
 
 ## Contributing
 
